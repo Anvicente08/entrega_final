@@ -30,6 +30,9 @@ p{
 .c-opa:hover {
   opacity: 0.3;
 }
+.container h2 {
+    color: #545e20;
+}
 .contact h4 {
   margin: bottom 10px; ;
 }
