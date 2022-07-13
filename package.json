@@ -1,0 +1,14 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "Desafío Sass",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-patch sass ./sass/index.scss ./css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

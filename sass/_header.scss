@@ -1,0 +1,8 @@
+.navbar a {
+    color: $colorLinkNav;
+    font-size: 18px;
+    transition: color 0.3;
+  }
+  .navbar a:hover {
+    color:$colorFont ;
+  }
