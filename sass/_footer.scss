@@ -23,3 +23,16 @@
   .footer a {
   color: #fff;  
   }
+  $redesSociales: (
+     facebook:blue,
+     instagram: #c92d8f,
+     whatsapp: green,
+  );
+@each $nombre, $color in $redesSociales {
+  .link-#{$nombre}{
+    margin: 0 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: $color;
+  }  
+}

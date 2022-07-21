@@ -22,10 +22,6 @@ p {
 .contact h4 {
   margin: bottom 10px; }
 
-.contact h5 {
-  color: #545e20;
-  margin-bottom: 30px; }
-
 .navbar a {
   color: #9eb23b;
   font-size: 18px;
@@ -40,10 +36,10 @@ p {
 .c-opa:hover {
   opacity: 0.3; }
 
-.contact__icons a {
+.contact__base, .contact__icons a, .contact h5 {
   color: #545e20;
   font-size: 30px;
-  margin: 0 10px; }
+  margin: 0 10 px; }
 
 .footer__content {
   display: flex;
@@ -68,3 +64,39 @@ p {
 
 .footer a {
   color: #fff; }
+
+.link-facebook {
+  margin: 0 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: blue; }
+
+.link-instagram {
+  margin: 0 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: #c92d8f; }
+
+.link-whatsapp {
+  margin: 0 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: green; }
+
+.link-1 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: start;
+  color: #545e54; }
+
+.link-2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  color: #545e20; }
+
+.link-3 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: end;
+  color: #545e20; }

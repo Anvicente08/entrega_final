@@ -1,5 +1,13 @@
+.contact__base {
+  color: $colorFuente;
+  font-size: 30px;
+  margin: 0 10 px;
+}
 .contact__icons a {
-    color: $colorFont;
-    font-size: 30px;
-    margin: 0 10px;
-  }
+  @extend .contact__base
+}  
+.contact h5 {
+  @extend .contact__base  
+}
+
+  
