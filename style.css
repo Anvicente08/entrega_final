@@ -45,7 +45,9 @@ p{
   font-size: 30px;
   margin: 0 10px;
 }
-
+h5 {
+  color: #545e20;
+}
 /* Footer*/
 .footer__content {
   display: flex;
